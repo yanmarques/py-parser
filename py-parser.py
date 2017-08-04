@@ -128,5 +128,5 @@ def get_response(url):
         return False
 
 # Inicia o script
-if (__name__ == '__main__')
+if (__name__ == '__main__'):
     init()
