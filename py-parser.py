@@ -121,11 +121,12 @@ def get_response(url):
 
     try:
         print ("** Carregando **")
-        
+
         return urllib.request.urlopen(url)
     except (ConnectionError, urllib.request.HTTPError, urllib.request.URLError) as erro:
         print ("Erro: {}" .format(erro))
         return False
 
 # Inicia o script
-init()
+if (__name__ == '__main__')
+    init()
